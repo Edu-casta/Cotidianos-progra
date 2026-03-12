@@ -1,0 +1,4 @@
+matriz = [["a", "b", "c"], ["a", "b", "c"], ["a", "b", "c"]]
+for vector in matriz: 
+    for item in vector:
+        print(item)

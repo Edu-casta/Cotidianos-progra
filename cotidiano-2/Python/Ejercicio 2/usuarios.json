@@ -1,0 +1,27 @@
+[
+    {
+        "name": "juan",
+        "password": "123",
+        "tier": "normal",
+        "credits": 90000.0,
+        "inventory": [
+            {
+                "tomate": 10
+            },
+            {
+                "botella de agua": 5
+            }
+        ]
+    },
+    {
+        "name": "carla",
+        "password": "pass123",
+        "tier": "normal",
+        "credits": 98200.0,
+        "inventory": [
+            {
+                "papas": 18
+            }
+        ]
+    }
+]

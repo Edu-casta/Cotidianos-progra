@@ -1,0 +1,17 @@
+[
+    {
+        "name": "tomate",
+        "price": 1000.0,
+        "stock": 695
+    },
+    {
+        "name": "papas",
+        "price": 100.0,
+        "stock": 0
+    },
+    {
+        "name": "botella de agua",
+        "price": 2000.0,
+        "stock": 1
+    }
+]
