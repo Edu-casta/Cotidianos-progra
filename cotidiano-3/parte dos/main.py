@@ -111,8 +111,34 @@ def ejercicio_nueve(x: int, y: int):
     matriz = [[randint(0, 1000) for j in range(y)] for i in range(x)]
     numeros_mayores_por_fila = []
 
+    for fila in matriz:
+        num_mayor = 0
+        for num in fila:
+            if num > num_mayor: num_mayor = num
+        numeros_mayores_por_fila.append(num_mayor)
+    
+    return matriz, numeros_mayores_por_fila
+        
+def ejercicio_diez(x: int, y: int):
+    matriz = [[randint(0, 20) for j in range(y)] for i in range(x)]
+    numeros_mayores_10 = []
 
+    for fila in matriz:
+        num_mayores_10 = []
+        for num in fila:
+            if num >= 10: numeros_mayores_10.append(num)
+        if num_mayores_10: numeros_mayores_10.append(num_mayores_10)
+    
+    return matriz, numeros_mayores_10
 
+def ejercicio_propio(x: int, y: int):
+    matriz = [[randint(0,1000) for j in range(y)] for i in range (x)]
+    numeros_pares = []
 
+    for fila in matriz:
+        for num in fila:
+            if num % 2 == 0: numeros_pares.append(num)
 
-ejercicio_nueve(8,4)
+    return matriz, numeros_pares
+
+print(ejercicio_propio(6,6))

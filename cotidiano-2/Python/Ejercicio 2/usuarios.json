@@ -23,5 +23,12 @@
                 "papas": 18
             }
         ]
+    },
+    {
+        "name": "daniel",
+        "password": "pass456",
+        "tier": "vip",
+        "credits": 0.0,
+        "inventory": []
     }
 ]
